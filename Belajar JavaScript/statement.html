@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kondisional</title>
+</head>
+<body>
+    <script>
+        // if (kondisi benar)
+        var x = 10;
+        if (x == 10) {
+            alert("Cape banget sumpah");
+        }
+
+        // if...else (kondisi benar dan kondisi salah)
+        var y = 10;
+        if (y == 10) {
+            alert("Asli cape banget");
+        }
+        else {
+            alert("Nggak kok, masih kuat");
+        }
+
+        // if-else if-else (beberapa kondisi)
+        var nilai = 75;
+
+        if (nilai >= 85) {
+            alert("A");
+        }
+        else if (nilai >= 70 && nilai < 85) 
+            alert("B");
+        
+        else if (nilai >= 60 && nilai < 70) {
+            alert("C");
+        }
+        else {
+            alert("D");
+        }
+
+        //switch (jika butuh kondisi banyak)
+        var buah = "apel";
+        switch (buah) {
+            case "apple":
+                alert("Ini adalah apel");
+                break;
+            case "melon":
+                alert("Ini adalah melon"); 
+                break;
+            case "jamboe":
+                alert("Ini adalah jambu");
+                break;
+        }
+    </script>
+</body>
+</html>
