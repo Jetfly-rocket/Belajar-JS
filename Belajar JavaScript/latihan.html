@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Operator</title>
+</head>
+<body>
+   <script>
+    //1. membuat program pembayaran uang ujian menggunakan operator AND &&
+    var uang = 50000;
+    var harga = 45000;
+    if (uang >= harga && uang > 0) {
+        document.writeln("Sudah Lunas dibayar<br>");
+    } 
+    else {
+        document.writeln("Belum dibayar<br>");
+    }
+
+
+    //2. membuat program medapat izin bermain game jika memiliki email menggunakan operator OR ||
+
+    var punyaEmail = true;
+    var tidakPunya = false;
+    let izin = punyaEmail || tidakPunya;
+
+    if (izin) {
+        document.writeln("Boleh bermain game</br>");
+    } 
+    else {
+        document.writeln("Tidak boleh bermain game");
+    }
+
+    //3. membuat program akses ditolak operator NOT !
+
+    let login = false;
+    let akses = !login;
+    if (akses) {
+        document.writeln("Akses ditolak, silahkan coba kembali");
+    } 
+    else {
+        document.writeln("Akses diberikan, selamat datang");
+    }
+   </script>
+</body>
+</html> 
